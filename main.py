@@ -7,6 +7,7 @@ app = FastAPI(
     title="Hello World API",
     description="A simple FastAPI demo that returns Hello World",
     version="0.1.0",
+    openapi_version="3.0.2"
 )
 
 # Define response model for better documentation
